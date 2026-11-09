@@ -1,0 +1,26 @@
+{
+  "name": "arrow-portrait",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit -p tsconfig.app.json && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "5.1.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "vite": "7.2.2",
+    "vite-plugin-pwa": "1.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "playwright": "^1.65.0",
+    "typescript": "5.9.3",
+    "vitest": "4.0.8"
+  }
+}

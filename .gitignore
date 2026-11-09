@@ -1,0 +1,12 @@
+node_modules/
+dist/
+generated_images/
+.DS_Store
+*.log
+.env*
+!.env.example
+.netlify/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
